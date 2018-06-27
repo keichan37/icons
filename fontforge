@@ -1,6 +1,6 @@
 #!/usr/local/bin/fontforge -lang=ff
 
-_fontname   = "icons.ttf"
+_fontname   = "fonts/RdGothic-icons.ttf"
 _importfile = "lib/u*.svg"
 
 New()
@@ -32,14 +32,14 @@ RoundToInt()
 #Select(0U3000)
 #SetWidth(1000)
 
-SetFontNames("icons",\
-             "icons",\
-             "icons",\
+SetFontNames("rdgothic-icons",\
+             "rdgothic-icons",\
+             "rdgothic-icons",\
              "Regular",\
              "Created by Kei Abukawa, with FontForge (http://fontforge.org)",\
              "0.01") 
-SetTTFName(0x411, 1, "icons")
-SetTTFName(0x411, 4, "icons")
+SetTTFName(0x411, 1, "rdgothic-icons")
+SetTTFName(0x411, 4, "rdgothic-icons")
 
 #Save("otf/" + _fontname:t:r + ".sfd")
 #Print("saved: otf/" + _fontname:t:r + ".sfd")
@@ -49,7 +49,7 @@ Print("generated: "+ _fontname)
 
 #Generate("otf/" + _fontname:t:r + ".otf")
 
-Generate("" + _fontname:t:r + ".woff")
+Generate("fonts/" + _fontname:t:r + ".woff")
 
 #Generate("otf/" + _fontname:t:r + ".svg")
 
