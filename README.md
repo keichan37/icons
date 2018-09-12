@@ -1,5 +1,7 @@
-# https://s3-ap-northeast-1.amazonaws.com/rdgothic-icons/index.html
-## アイコンフォント
+# https://rdgothic-icons.amazonaws.com/rdgothic-icons/index.html
+
+    masterブランチにpushするとTravis CIが自動的にAmazon S3にデプロイ
+
 ### 開発環境
 
     $ brew install fontforge
