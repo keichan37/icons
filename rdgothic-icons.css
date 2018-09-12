@@ -45,6 +45,7 @@
 .icon-tag:before         { content: "\f10E"; }
 .icon-media:before,
 .icon-browser:before     { content: "\f10F"; }
+.icon-registration:before,
 .icon-detail:before      { content: "\f110"; }
 .icon-copy:before        { content: "\f111"; }
 .icon-edit:before        { content: "\f112"; }
@@ -56,4 +57,5 @@
 .icon-download:before    { content: "\f118"; }
 .icon-money:before       { content: "\f119"; }
 .icon-caution:before     { content: "\f11A"; }
+.icon-occupations:before,
 .icon-business:before    { content: "\f11B"; }
