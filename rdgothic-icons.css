@@ -27,6 +27,7 @@
 .icon-column:before,
 .icon-paper:before       { content: "\f101"; }
 .icon-interview:before,
+.icon-news:before,
 .icon-chat:before        { content: "\f102"; }
 .icon-time:before        { content: "\f103"; }
 .icon-category:before,
