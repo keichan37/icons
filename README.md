@@ -1,4 +1,4 @@
-# https://rdgothic-icons.amazonaws.com/rdgothic-icons/index.html
+# https://rdgothic-icons.s3.amazonaws.com/index.html
 
     masterブランチにpushするとTravis CIが自動的にAmazon S3にデプロイ
 
