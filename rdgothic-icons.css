@@ -59,3 +59,9 @@
 .icon-caution:before     { content: "\f11A"; }
 .icon-jobs:before,
 .icon-business:before    { content: "\f11B"; }
+.icon-setting:before     { content: "\f11C"; }
+.icon-notification:before{ content: "\f11D"; }
+.icon-attachment:before  { content: "\f11E"; }
+.icon-love:before        { content: "\f11F"; }
+.icon-flag:before        { content: "\f120"; }
+.icon-bookmark:before    { content: "\f121"; }
